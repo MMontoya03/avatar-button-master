@@ -1,15 +1,29 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Avatar y Button
+      Perfil
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content class="ion-padding">
 
+  <!-- Avatar y nombre -->
+  <ion-item lines="none">
+    <ion-avatar slot="start">
+      <img src="assets/img/mi-foto.jpeg" alt="Mi foto">
+
+    </ion-avatar>
+
+    <ion-label>
+      <h2>Maria Montoya</h2>
+      <p>22</p>
+    </ion-label>
+  </ion-item>
+
   <br>
 
+  <!-- Botón LinkedIn -->
   <ion-button
     expand="block"
     color="primary"
@@ -20,15 +34,16 @@
     LinkedIn
   </ion-button>
 
+  <!-- Botón GitHub -->
   <ion-button
-  expand="block"
-  fill="outline"
-  color="dark"
-  href="https://github.com/MMontoya03"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  GitHub
-</ion-button>
+    expand="block"
+    fill="outline"
+    color="dark"
+    href="https://github.com/MMontoya03"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    GitHub
+  </ion-button>
 
 </ion-content>
